@@ -40,7 +40,7 @@ const Hero = () => {
                 <ScrollLink>
                  Scroll down
                 <img
-                  src={require('../../assets/scroll_down.png')} 
+                  src={require('../../assets/scrollDownn.png')} 
                   alt="scroll-down"
                 />   
                 </ScrollLink>

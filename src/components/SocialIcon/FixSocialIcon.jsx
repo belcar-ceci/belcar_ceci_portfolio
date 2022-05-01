@@ -37,7 +37,7 @@ const FixSocialIcon = () => {
       <ul>
         <li className="item">
           <a
-            href="https://www.linkedin.com/in/your_username/"
+            href="https://www.linkedin.com/in/cecicarbel/"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -46,7 +46,7 @@ const FixSocialIcon = () => {
         </li>
         <li className="item">
           <a
-            href="https://github.com/your_username/"
+            href="https://github.com/belcar-ceci"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -55,7 +55,7 @@ const FixSocialIcon = () => {
         </li>
         <li className="item">
           <a
-            href="https://github.com/your_username/"
+            href="https://www.instagram.com/belcar_ceci/"
             target="_blank"
             rel="noopener noreferrer"
           >

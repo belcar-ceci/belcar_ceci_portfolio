@@ -114,8 +114,8 @@ export const ScrollLink = styled.div`
   color: #f6f6;
 
   img {
-    height: 35px;
-    width: 35px;
+    height: 45px;
+    width: 45px;
     margin-left: 6px;
   }
 `;

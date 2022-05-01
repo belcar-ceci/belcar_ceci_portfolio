@@ -6,16 +6,16 @@ export const ProjectList = [
     description: "Codewell challenge, Spense is a landing page for writers.",
     tech_stack: "Html, Css, Javascript",
     github_url: "https://github.com/belcar-ceci/PC-CODERS",
-    demo_url: "https://crada2.github.io/PC-CODERS/",
+    demo_url: "https://belcar-ceci.github.io/PC-CODERS/",
   },
   {
-    img: "https://raw.githubusercontent.com/gurupawar/website/main/src/Assets/project_2.png",
-    title: "Fiber",
+    img: "https://raw.githubusercontent.com/belcar-ceci/consulting/main/Readme/Mockup/Landing1.png",
+    title: "Consulting",
     description:
       "An online portfolio generator. Great to practice flex/grid layouts, absolute positioning and sliders.",
     tech_stack: "Html, Css, Javascript",
-    github_url: "https://your_project_github_link",
-    demo_url: "https://your_project_demo_link",
+    github_url: "https://github.com/belcar-ceci/consulting",
+    demo_url: "https://crada-consulting.herokuapp.com/",
   },
   {
     img: "https://raw.githubusercontent.com/gurupawar/website/main/src/Assets/portfolio.png",
