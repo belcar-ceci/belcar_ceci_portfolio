@@ -80,12 +80,12 @@ video {
 }
 
 .PrimaryBtn:hover {
-  background: rgb(232, 219, 82);
+  background: #e8db52;
   color: #010606;
 }
 
 .SecondarBtn:hover {
-  background: #070e2f;
+  background: #C62368;
   color: #fff;
 }
 
