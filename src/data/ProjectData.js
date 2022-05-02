@@ -18,7 +18,7 @@ export const ProjectList = [
     demo_url: "https://crada-consulting.herokuapp.com/",
   },
   {
-    img: "https://raw.githubusercontent.com/belcar-ceci/belcar_ceci_portfolio/main/public/Imgs/Readme.MD/landing_Desktop.png?token=GHSAT0AAAAAABQEXYBAFG5WJBVLJMB2KOPKYTPC6WA",
+    img: "https://raw.githubusercontent.com/belcar-ceci/belcar_ceci_portfolio/main/public/Imgs/Readme.MD/landing_Desktop.png?token=GHSAT0AAAAAABQEXYBB7EPUKOJG3HROWRYIYTPEEFA",
     title: "Portfolio",
     description: "Ofcourse i made my own personal portfolio website.",
     tech_stack: "Reactjs, Css",
