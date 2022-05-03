@@ -1,95 +1,39 @@
-.hero_container-slider {
-    height: 25vw;
-    width: 50vw;
-    margin: 1% 25% 0;
-    position: relative;
-    overflow: hidden;
-    box-shadow: 0 10px 20px rgb(0 0 0 / 20%);
-    border-radius: 36px;
-    opacity: 0.5;
-}
-
-.slide {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  opacity: 0;
-  transition: opacity ease-in-out 0.1s;
-}
-
-.slide img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-.hero_active-anim {
-  opacity: 1;
-}
-
-.herobtn-slide {
-  width: 2.5vw;
-  height: 0.5vw;
-  border-radius: 50%;
-  background: #f7f5f405;
-  border: 1px solid #fffafa05;
-  position: absolute;
+.portfolio {
   display: flex;
-  justify-content: center;
   align-items: center;
-  cursor: pointer;
-  background-color: transparent !important;
+  justify-content: center;
+  flex-direction: column;
+  height: 50vh;
+
+}
+/* heading */
+.portfolio span:nth-of-type(1) {
+  color: var(--black);
+  font-size: 2rem;
+  font-weight: bold;
 }
 
-.herobtn-slide:hover img{
-  visibility: visible;
-  width: 3.5vw;
-  height: 3.5vw;
-  pointer-events: none;
+.portfolio span:nth-of-type(2) {
+  color: var(--orange);
+  font-size: 2.5rem;
+  font-weight: bold;
 }
 
-.prev {
-  top: 50%;
-  left: 20px;
-  transform: translateY(-40%);
-}
-.next {
-  top: 50%;
-  right: 20px;
-  transform: translateY(-40%);
+/* slider */
+.portfolio .swiper{
+    overflow: visible!important;
 }
 
-.hero_container-dots {
-  position: absolute;
-  bottom: 10px;
-  left: 50%;
-  transform: translateX(-50%);
-  display: flex;
+.portfolio-slider {
+  margin-top: 3rem;
+  width: 100%;
 }
 
-.dot {
-  width: 7px;
-  height: 7px;
-  border-radius: 50%;
-  border: 1px;
-  margin: 0 5px;
-  background: #C62368;
+.portfolio-slider .swiper-slide {
+  width: 20rem;
 }
-
-.dot .active {
-  background: rgb(236, 131, 131);
-}
-
-@media screen and (max-width: 450px) {
-  .hero_container-slider {
-    margin: 2.5% 2.5% 0;
-    height: 280px;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .hero_container-slider {
-    margin: 2% 2% 0;
-    height: 367px;
-  }
+.portfolio img {
+  width: 19rem;
+  filter: drop-shadow(-12px 15px 13px rgba(0, 0, 0, 0.25));
+  border-radius: 19px;
 }

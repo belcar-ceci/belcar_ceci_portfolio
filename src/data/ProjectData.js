@@ -1,5 +1,14 @@
 import PortFolioCeci from "../assets/imgHeroFooter/1.png";
 import StartWars from "../assets/imgHeroFooter/2.png";
+import Html5 from "../assets/skills/html5.svg";
+import Css3 from "../assets/skills/css3.svg";
+import JavaScript from "../assets/skills/javascript.svg";
+import React from "../assets/skills/react.svg";
+import Vue from "../assets/skills/vue.svg";
+import Bootstrap from "../assets/skills/bootstrap.svg";
+import Scss from "../assets/skills/sass.svg";
+import Git from "../assets/skills/git.svg";
+import ResponsiveWeb from "../assets/skills/responsive.svg";
 
 
 // --------------------------------------- Project List
@@ -44,35 +53,39 @@ export const ProjectList = [
 
 export const stackList = [
   {
-    img: "https://raw.githubusercontent.com/gurupawar/website/main/src/Assets/skill/html5.svg",
+    img: Html5,
     name: "HTML",
   },
   {
-    img: "https://raw.githubusercontent.com/gurupawar/website/main/src/Assets/skill/css3.svg",
+    img: Css3,
     name: "CSS",
   },
   {
-    img: "https://raw.githubusercontent.com/gurupawar/website/main/src/Assets/skill/javascript.svg",
+    img: JavaScript,
     name: "JavaScript",
   },
   {
-    img: "https://raw.githubusercontent.com/gurupawar/website/main/src/Assets/skill/react.svg",
+    img: React,
     name: "ReactJS",
   },
   {
-    img: "https://raw.githubusercontent.com/gurupawar/website/main/src/Assets/skill/bootstrap.svg",
+    img: Vue,
+    name: "Vue",
+  },
+  {
+    img: Bootstrap,
     name: "Bootstrap",
   },
   {
-    img: "https://raw.githubusercontent.com/gurupawar/website/main/src/Assets/skill/sass.svg",
+    img: Scss,
     name: "Scss",
   },
   {
-    img: "https://raw.githubusercontent.com/gurupawar/website/main/src/Assets/skill/git.svg",
+    img: Git,
     name: "Git",
   },
   {
-    img: "https://raw.githubusercontent.com/gurupawar/website/main/src/Assets/skill/responsive.svg",
+    img: ResponsiveWeb,
     name: "Responsive",
   },
 ];

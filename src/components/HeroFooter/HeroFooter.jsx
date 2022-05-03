@@ -1,58 +1,47 @@
-/* eslint-disable react-hooks/rules-of-hooks */
-/* eslint-disable jsx-a11y/alt-text */
-import React, { useState } from "react";
-import BtnSlider from "../HeroFooter/BtnSlider";
-import DataSlider from "../HeroFooter/DataSlider";
+import React from "react";
+import "../HeroFooter/heroFooter.css";
+import { Swiper, SwiperSlide } from "swiper/react"
+import "swiper/css";
+import CradaChill from "../../assets/imgHeroFooter/cradachill.png";
+import GardenMap from "../../assets/imgHeroFooter/gardenMap.png";
+import Marketplace from "../../assets/imgHeroFooter/marketplaceNft.png";
+import JobsMarkets from "../../assets/imgHeroFooter/jobsmarkets.png";
 
 const HeroFooter = () => {
-  const [slideIndex, setSlideIndex] = useState(1);
-
-  const nextSlide = () => {
-    if (slideIndex !== DataSlider.length) {
-      setSlideIndex(slideIndex + 1);
-    } else if (slideIndex === DataSlider.length) {
-      setSlideIndex(1);
-    }
-  };
-
-  const prevSlide = () => {
-    if (slideIndex !== 1) {
-      setSlideIndex(slideIndex - 1);
-    } else if (slideIndex === 1) {
-      setSlideIndex(DataSlider.length);
-    }
-  };
-
-  const moveDot = (index) => {
-    setSlideIndex(index);
-  };
 
   return (
-    <div className="hero_container-slider">
-      {DataSlider.map((todo, index) => {
-        return (
-          <div
-            key={todo.id}
-            className={
-              slideIndex === index + 1 ? "slide hero_active-anim" : "slide"
-            }
+    <div className="portfolio" id="portfolio">
+      {/* heading */}
+      <span >Recent Projects</span>
+       <a
+            className="btn PrimaryBtn"
+            href="https://github.com/belcar-ceci"
+            target="_blank"
+            rel="noopener noreferrer"
           >
-            <img src={process.env.PUBLIC_URL + `/Imgs/img${index + 1}.png`} />
-          </div>
-        );
-      })}
-      <BtnSlider moveSlide={nextSlide} direction={"next"} />
-      <BtnSlider moveSlide={prevSlide} direction={"prev"} />
+            GitHub Profile
+          </a>
 
-      <div className="hero_container-dots ">
-        {Array.from({ length: 5 }).map((todo, index) => (
-          <div
-            key={index}
-            onClick={() => moveDot(index + 1)}
-            className={slideIndex === index + 1 ? "dot active" : "dot"}
-          ></div>
-        ))}
-      </div>
+      {/* slider */}
+      <Swiper
+        spaceBetween={30}
+        slidesPerView={3}
+        grabCursor={true}
+        className="portfolio-slider"
+      >
+        <SwiperSlide>
+          <img src={CradaChill} alt="" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={GardenMap} alt="" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={Marketplace} alt="" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={JobsMarkets} alt="" />
+        </SwiperSlide>
+      </Swiper>
     </div>
   );
 };

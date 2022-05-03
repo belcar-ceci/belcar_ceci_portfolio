@@ -1,10 +1,10 @@
 import React from "react";
 import styled from "styled-components";
+import Wave from "../../assets/footer.png";
 //import img1 from "../../assets/footer_blob.png";
 //https://raw.githubusercontent.com/gurupawar/website/main/src/Assets/footer_wave.svg
 
 const FooterSection = styled.div`
-  background-image: url(https://raw.githubusercontent.com/gurupawar/website/main/src/Assets/footer_wave.svg);
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -15,6 +15,7 @@ const FooterSection = styled.div`
     position: absolute;
     bottom: 4rem;
     color: #fff;
+    top: 19vw;
 
     a {
       text-decoration: underline;
@@ -24,9 +25,10 @@ const FooterSection = styled.div`
 function Footer() {
   return (
     <FooterSection>
+      <img src={Wave} alt="" style={{ width: "100%" }} />
       <div className="Container">
         <span>
-          Coded with 💜 by{" "}
+          Made with 💜 by{" "}
           <a
             href="https://github.com/belcar-ceci"
             target="_blank"
