@@ -35,7 +35,7 @@ const Dropdown = ({ isOpen, toggle}) => {
       <NavBtn onClick={toggle}>
         <a
           className="btn PrimaryBtn"
-          href="https://github.com/gurupawar/"
+          href="https://github.com/belcar-ceci/"
           target="_blank"
           rel="noopener noreferrer"
         >

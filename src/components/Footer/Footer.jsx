@@ -1,8 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import Wave from "../../assets/footer.png";
-//import img1 from "../../assets/footer_blob.png";
-//https://raw.githubusercontent.com/gurupawar/website/main/src/Assets/footer_wave.svg
+
 
 const FooterSection = styled.div`
   background-repeat: no-repeat;
