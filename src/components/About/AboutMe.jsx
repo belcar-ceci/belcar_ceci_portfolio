@@ -20,13 +20,12 @@ const AboutMe = () => {
             alt="man-svgrepo"
           />
           <div className="AboutBio">
-            Hello! My name is <strong>Your Name</strong> Lorem Ipsum is simply
-            dummy text of the printing and typesetting industry. Lorem Ipsum has
-            been the industry's standard dummy text ever since the 1500s, when
-            an unknown printer took a galley of type and scrambled it to make a
-            type specimen book. It has survived not only five centuries, but
-            also the leap into electronic typesetting, remaining essentially
-            unchanged.
+            Hello! My name is <strong>Cecilia Carbajal</strong> With more than 1 year of professional experience as a UI & Front Developer,
+            I have strong skills in HTML5 Markup, CSS3, Responsive Web and Semantic Web Analysis.
+            In my training process, I addressed front-end processes with Javascript using React,
+            and back-end in Node JS, Spring Boot, Java, Php and Laravel, focused on REST API with Express and MySQL.
+            Find in my profile skills such as: problem solving, attentive to indications, teamwork,
+            analytical and curious, with a focus on continuous learning and keeping up to date with new technologies.
           </div>
           <div className="AboutBio tagline2">
             I have become confident using the following technologies.
