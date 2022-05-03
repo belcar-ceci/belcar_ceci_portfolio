@@ -1,9 +1,13 @@
+import PortFolioCeci from "../assets/imgHeroFooter/1.png";
+import StartWars from "../assets/imgHeroFooter/2.png";
+
+
 // --------------------------------------- Project List
 export const ProjectList = [
   {
     img: "https://raw.githubusercontent.com/belcar-ceci/PC-CODERS/main/images/imgReadme.md/landingDesktop.png",
     title: "PC-Coders",
-    description: "Codewell challenge, Spense is a landing page for writers.",
+    description: "Random coder selection system, with the possibility of adding more coders.",
     tech_stack: "Html, Css, Javascript",
     github_url: "https://github.com/belcar-ceci/PC-CODERS",
     demo_url: "https://belcar-ceci.github.io/PC-CODERS/",
@@ -12,27 +16,27 @@ export const ProjectList = [
     img: "https://raw.githubusercontent.com/belcar-ceci/consulting/main/Readme/Mockup/Landing1.png",
     title: "Consulting",
     description:
-      "An online portfolio generator. Great to practice flex/grid layouts, absolute positioning and sliders.",
-    tech_stack: "Html, Css, Javascript",
+      "Application based on the MVC pattern (Model-View-Controller), allows you to request an appointment with the CTO to solve technical problems of the development teams.",
+    tech_stack: "PHP, Javascript, Bootstrap,  Html, CSS, MySQL,",
     github_url: "https://github.com/belcar-ceci/consulting",
     demo_url: "https://crada-consulting.herokuapp.com/",
   },
   {
-    img: "https://raw.githubusercontent.com/belcar-ceci/belcar_ceci_portfolio/main/public/Imgs/Readme.MD/landing_Desktop.png?token=GHSAT0AAAAAABQEXYBB7EPUKOJG3HROWRYIYTPEEFA",
+    img: PortFolioCeci,
     title: "Portfolio",
     description: "Ofcourse i made my own personal portfolio website.",
-    tech_stack: "Reactjs, Css",
+    tech_stack: "React, Javascript, Styled-Components",
     github_url: "https://github.com/belcar-ceci/belcar_ceci_portfolio",
     demo_url: "https://your_project_demo_link/",
   },
   {
-    img: "https://raw.githubusercontent.com/gurupawar/website/main/src/Assets/project_3.png",
-    title: "Ecommerce website",
+    img: StartWars,
+    title: "API Start Wars",
     description:
-      "Created simple ecommerce website using reactjs and react-use-cart plugin.",
-    tech_stack: "Reactjs, Css",
-    github_url: "https://your_project_github_link",
-    demo_url: "https://your_project_demo_link",
+      "Landing Page that manages through a JavaScript API call to load and display a list of data of ships, characters and movies.",
+    tech_stack: "React, Styled-Components, Api-Start Warts ",
+    github_url: "https://github.com/belcar-ceci/ReactApi-Start-Wars.git",
+    demo_url: "https://reactapi-startwars.netlify.app/",
   },
 ];
 

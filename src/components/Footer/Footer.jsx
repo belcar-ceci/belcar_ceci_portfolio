@@ -1,5 +1,7 @@
 import React from "react";
 import styled from "styled-components";
+//import img1 from "../../assets/footer_blob.png";
+//https://raw.githubusercontent.com/gurupawar/website/main/src/Assets/footer_wave.svg
 
 const FooterSection = styled.div`
   background-image: url(https://raw.githubusercontent.com/gurupawar/website/main/src/Assets/footer_wave.svg);

@@ -1,10 +1,12 @@
 .hero_container-slider {
-  height: 408px;
-  margin: 1% 20% 0;
-  position: relative;
-  overflow: hidden;
-  box-shadow: 0 10px 20px rgb(0 0 0 / 20%);
-  border-radius: 36px;
+    height: 25vw;
+    width: 50vw;
+    margin: 1% 25% 0;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 10px 20px rgb(0 0 0 / 20%);
+    border-radius: 36px;
+    opacity: 0.5;
 }
 
 .slide {

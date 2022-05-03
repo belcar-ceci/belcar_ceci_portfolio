@@ -37,7 +37,7 @@ const HeroFooter = () => {
               slideIndex === index + 1 ? "slide hero_active-anim" : "slide"
             }
           >
-            <img src={process.env.PUBLIC_URL + `/Imgs/img${index + 1}.gif`} />
+            <img src={process.env.PUBLIC_URL + `/Imgs/img${index + 1}.png`} />
           </div>
         );
       })}
@@ -45,7 +45,7 @@ const HeroFooter = () => {
       <BtnSlider moveSlide={prevSlide} direction={"prev"} />
 
       <div className="hero_container-dots ">
-        {Array.from({ length: 6 }).map((todo, index) => (
+        {Array.from({ length: 5 }).map((todo, index) => (
           <div
             key={index}
             onClick={() => moveDot(index + 1)}
