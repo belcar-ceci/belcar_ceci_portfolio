@@ -36,7 +36,7 @@ export const ProjectList = [
     description: "Ofcourse i made my own personal portfolio website.",
     tech_stack: "React, Javascript, Styled-Components",
     github_url: "https://github.com/belcar-ceci/belcar_ceci_portfolio",
-    demo_url: "https://your_project_demo_link/",
+    demo_url: "https://belcar-portfolio-ceci.netlify.app/",
   },
   {
     img: StartWars,
